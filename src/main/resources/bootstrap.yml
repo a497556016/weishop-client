@@ -7,7 +7,7 @@ eureka:
     ip-address: 127.0.0.1
   client:
     service-url:
-      defaultZone: http://114.67.153.171:8687/eureka/
+      defaultZone: http://116.196.91.220:8687/eureka/
     eureka-server-connect-timeout-seconds: 3000
 
 spring:

@@ -34,7 +34,7 @@ angular.module('app')
                   return $ocLazyLoad.load(['js/controllers/chart.js']);
               }]
             }
-        })
+        });
     	
     	setTimeout(function(){
     		console.log(global.menuData);

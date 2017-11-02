@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-ng-app="app">
+<html lang="ch" data-ng-app="app">
 <head>
   <meta charset="utf-8" />
   <title>Be Angular | Bootstrap Admin Web App with AngularJS</title>
@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" />
   <link rel="stylesheet" href="css/font.css" type="text/css" />
   <link rel="stylesheet" href="css/app.css" type="text/css" />
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css">
 </head>
 <body ng-controller="AppCtrl">
   <div class="app" id="app" ng-class="{'app-header-fixed':app.settings.headerFixed, 'app-aside-fixed':app.settings.asideFixed, 'app-aside-folded':app.settings.asideFolded, 'app-aside-dock':app.settings.asideDock, 'container':app.settings.container}" ui-view></div>
@@ -33,6 +35,11 @@
 
   <!-- bootstrap -->
   <script src="vendor/angular/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+	
+  <!-- Latest compiled and minified Locales -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/locale/bootstrap-table-zh-CN.min.js"></script>
   <!-- lazyload -->
   <script src="vendor/angular/oclazyload/ocLazyLoad.js"></script>
   <!-- translate -->
@@ -63,5 +70,9 @@
   <script src="js/directives/ui-validate.js"></script>
   <script src="js/controllers/bootstrap.js"></script>
   <!-- Lazy loading -->
+  
+  	
+	
+  
 </body>
 </html>
